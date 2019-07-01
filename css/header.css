@@ -1,0 +1,51 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+.signUp{
+    position: absolute;
+    right: 10px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 90px;
+}
+.signIn{
+    position: absolute;
+    right: 110px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 90px;
+}
+.logo{
+    font-family: Marck Script, cursive;
+    font-size: 50px;
+    color: blue;
+    position: absolute;
+    left: 10px;
+}
+.subHeading{
+    font-family:Satisfy, cursive;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+.allPost{
+    background-color: #ffcf40;
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    top: 250px;
+    height: 35px;
+    left: 550px;
+}
+.createPost{
+    background-color: #ffcf40;
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    top: 250px;
+    height: 35px;
+    left: 650px;
+}
