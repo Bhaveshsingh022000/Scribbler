@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed&display=swap" rel="stylesheet">
     <!-- Place all CSS for header in this file -->
     <link href='css\header.css' rel='stylesheet' type='text/css'>
 
@@ -16,9 +16,8 @@
     <div id="main-container-div">
 
         <div class="header">
-            
-            <input type="button" class="signIn" value="Sign In">
-            <input type="button" class="signUp" value="Sign Up">
+            <button id="signIn">Sign In</button>
+            <button id="signUp">Sign Up</button>
             <text class="logo">ScriBBler</text>
             <p class="subHeading">Explore, Image, Create</p>
         	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
@@ -33,16 +32,34 @@
         </div>
     </div>
 
-    <div>
+    <!-- Insert code for Sign In modal here -->
+    
+    	
 
-    	<!-- Insert code for Sign In modal here -->
+    
 
-    </div>
-
-    <div>
 
     	<!-- Insert code for Sign Up modal here -->
-
+<div id="signUpModal">
+        <div id="content">
+            <div id="bodyModal">
+                <span class="close">&times;</span>
+                <h2 id="get">Get Started</h2>
+                <hr>
+                <form>
+                <label id="name">Full Name</label><br>
+                <input type="text" id="fullName" placeholder="Enter Full Name"><br>
+                <label id="userName">Username</label><br>
+                <input type="text" id="fullName" placeholder="Enter Username"><br>
+                <label id="password">Password</label><br>
+                <input type="password" id="fullName" placeholder="Enter Password"><br>
+                <label id="confirmPassword">Confirm Password</label><br>
+                <input type="password" id="fullName" placeholder="Confirm Password"><br>
+                <input type="button" id="signUpModalButton" value="Sign Up"><br>
+                </form>
+            </div>
+            
+        </div>
     </div>
 
     <div>
