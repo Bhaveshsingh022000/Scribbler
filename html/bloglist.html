@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed&display=swap" rel="stylesheet">
     <link href='..\css\bloglist.css' rel='stylesheet' type='text/css'>    
     <link href='..\css\header.css' rel='stylesheet' type='text/css'>
     <link href='..\css\font.css' rel='stylesheet' type='text/css'>
@@ -12,23 +13,65 @@
 <body>
     <div id="main-container-div">
         <div class="header">
-                                
+            <button id="signIn">Sign In</button>
+            <button id="signUp">Sign Up</button>
+            <text class="logo">ScriBBler</text>
+            <p class="subHeading">Explore, Image, Create</p>       
             <!-- Insert code for Sign Up, Sign In button here. 
                  Add code for "ScriBBler" heading and the sub-heading -->
 
         </div>
     </div>
-    <div>
+    
+ <div class="postButtons">
+            <button class="allPost"><b>All Posts</b></button>
+            <button class="createPost"><b>Create Post</b></button>
+        	<!-- Insert code for All Posts & Create Post button here -->
 
-        <!-- Insert code for Sign In modal here -->
-
+        </div>
+       <!-- Insert code for Sign In modal here -->
+    
+<div id="signInModal">
+    <div id="contentSignIn">
+        <div id="modalBodySignIn">
+            <span class="close1">&times;</span>
+                <h2 id="get">Welcome Back!</h2>
+                <hr>
+                <form>
+                <label id="userName">Username</label><br>
+                <input type="text" id="fullName" placeholder="Enter Username" required><br>
+                <label id="password">Password</label><br>
+                <input type="password" id="fullName" placeholder="Enter Password" required><br>
+                <input type="submit" id="signInModalButton" value="Sign In"><br>
+                    <h3>Not a member? <span id="member">SignUp</span></h3>
+                </form>
+</div>
+    </div>
+    </div>
+    
+    	<!-- Insert code for Sign Up modal here -->
+<div id="signUpModal">
+        <div id="contentSignUp">
+            <div id="modalBodySignUp">
+                <span class="close2">&times;</span>
+                <h2 id="get">Get Started</h2>
+                <hr>
+                <form>
+                <label id="name">Full Name</label><br>
+                <input type="text" id="fullName" placeholder="Enter Full Name" required><br>
+                <label id="userName">Username</label><br>
+                <input type="text" id="fullName" placeholder="Enter Username" required><br>
+                <label id="password">Password</label><br>
+                <input type="password" id="fullName" placeholder="Enter Password" required><br>
+                <label id="confirmPassword">Confirm Password</label><br>
+                <input type="password" id="fullName" placeholder="Confirm Password" required><br>
+                <input type="submit" id="signUpModalButton" value="Sign Up"><br>
+                </form>
+            </div>
+            
+        </div>
     </div>
 
-    <div>
-
-        <!-- Insert code for Sign Up modal here -->
-
-    </div>
 
     <div class="allPostsContainer">
     <div class="post">
