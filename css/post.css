@@ -69,3 +69,17 @@
     height: 35px;
     border-radius: 4px;
 }
+#commentDisplay{
+    overflow: auto;
+    background-color: grey;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 70px;
+}
+#allComment{
+    padding: 10px;
+    width: 543px;
+    margin-top:20px;
+    margin-left : 20px;
+    background-color: white;
+}

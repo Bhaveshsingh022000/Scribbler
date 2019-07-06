@@ -27,3 +27,13 @@ like.onclick = function(){
         document.getElementById("likeText").innerHTML = likeCount + " persons Liked this!";
     }
 }
+
+
+var commentBtn = document.getElementById("commentButton");
+commentBtn.onclick = function(){
+var com = document.createElement("p");
+    com.setAttribute("id","allComment");
+var tex = document.createTextNode(comment.value);
+com.appendChild(tex);
+document.getElementById("commentDisplay").appendChild(com);
+}
