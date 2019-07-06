@@ -7,7 +7,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     color: white;
     height: 40px;
     width: 90px;
-    z-index: 1;
+    
 }
 #signIn{
     position: fixed;
@@ -16,7 +16,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     color: white;
     height: 40px;
     width: 90px;
-    z-index: 1;
+    
 }
 .logo{
     font-family: Marck Script, cursive;
@@ -24,7 +24,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     color: blue;
     position: fixed;
     left: 10px;
-    z-index: 1;
+    
 }
 .subHeading{
     font-family:Satisfy, cursive;

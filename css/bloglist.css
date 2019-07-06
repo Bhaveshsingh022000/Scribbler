@@ -1,3 +1,4 @@
+
 .post {
     position: relative;
     width: 90%;
@@ -17,8 +18,11 @@
         text-align: center;
         font-weight: bold;
         color: #000;
+        text-overflow: ellipsis;
 }
 .post-content {
+        overflow: hidden;
+        text-overflow: ellipsis;
         width: 75%;           
         display: table-cell;
         text-align: left;
@@ -58,7 +62,13 @@ body {
     background-size: 2000% 2000%;
 }
 .allPostsContainer {
+    position: absolute;
+    background-color: aqua;
+    margin-top: 100px;
+    max-width: 50%;
     height: 100%;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 
 }
