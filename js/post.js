@@ -14,3 +14,7 @@ save.onclick = function(){
     content.contentEditable = false;
     content.blur();
 }
+
+function like(){
+    document.getElementById
+}
