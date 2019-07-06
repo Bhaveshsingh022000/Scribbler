@@ -1,7 +1,7 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 #signUp{
-    position: fixed;
+    position:absolute;
     right: 10px;
     background-color: blue;
     color: white;
@@ -10,7 +10,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     
 }
 #signIn{
-    position: fixed;
+    position: absolute;
     right: 110px;
     background-color: blue;
     color: white;
@@ -22,7 +22,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     font-family: Marck Script, cursive;
     font-size: 50px;
     color: blue;
-    position: fixed;
+    position: absolute;
     left: 10px;
     
 }
@@ -30,7 +30,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     font-family:Satisfy, cursive;
     font-size: 18px;
     color: black;
-    position: fixed;
+    position: absolute;
     left: 10px;
     top: 40px;
     z-index: 1;

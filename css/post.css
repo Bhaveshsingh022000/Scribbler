@@ -54,3 +54,18 @@
 #likeText{
     margin-top: 60px;
 }
+#comment{
+    width: 50%;
+    height: 100px;
+    margin-top: 20px;
+}
+#commentButton{
+    margin-top: 12px;
+    background-color:deeppink;
+    border-width: 0px;
+    box-shadow: 0px 10px 32px -6px rgb(255,20,147,0.4);
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+}

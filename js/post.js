@@ -15,6 +15,15 @@ save.onclick = function(){
     content.blur();
 }
 
-function like(){
-    document.getElementById
+var likeCount = 0;
+var like = document.getElementById("likeButton");
+like.onclick = function(){
+    like.innerHTML = "<i class='fa fa-thumbs-up'></i> Liked!";
+    likeCount = likeCount + 1;
+    if(likeCount == 1){
+        document.getElementById("likeText").innerHTML = "1 person Likes this!";
+    }
+    else{
+        document.getElementById("likeText").innerHTML = likeCount + " persons Liked this!";
+    }
 }
