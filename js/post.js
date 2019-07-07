@@ -24,7 +24,7 @@ like.onclick = function(){
         document.getElementById("likeText").innerHTML = "1 person Likes this!";
     }
     else{
-        document.getElementById("likeText").innerHTML = likeCount + " persons Liked this!";
+        document.getElementById("likeText").innerHTML = likeCount + " people Liked this!";
     }
 }
 

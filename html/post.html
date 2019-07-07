@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-        
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed&display=swap" rel="stylesheet">
         <link href='..\css\post.css' rel='stylesheet' type='text/css'>
         <link href='..\css\header.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
@@ -8,20 +8,62 @@
     <style>        
     </style>     
 </head>
-<body>
-        <div class="header">
-             <!-- Insert code for Sign Up, Sign In button here. 
+<body>  <!-- Insert code for Sign Up, Sign In button here. 
                Add code for "ScriBBler" heading and the sub-heading -->
+        
+        <div class="header">
             <button id="signIn">Sign In</button>
             <button id="signUp">Sign Up</button>
             <text class="logo">ScriBBler</text>
             <p class="subHeading">Explore, Image, Create</p>
         </div>
+    
+<div id="signInModal">
+    <div id="contentSignIn">
+        <div id="modalBodySignIn">
+            <span class="close1">&times;</span>
+                <h2 id="get">Welcome Back!</h2>
+                <hr>
+                <form>
+                    <label id="userName">Username</label><br>
+                    <input type="text" id="fullName" placeholder="Enter Username" required><br>
+                    <label id="password">Password</label><br>
+                    <input type="password" id="fullName" placeholder="Enter Password" required><br>
+                    <input type="submit" id="signInModalButton" value="Sign In"><br>
+                    <h3>Not a member? <span id="member">SignUp</span></h3>
+                </form>
+        </div>
+    </div>
+</div>
 
-    <div class="blogContent">
+    	
+
+    	<!-- Insert code for Sign Up modal here -->
+<div id="signUpModal">
+        <div id="contentSignUp">
+            <div id="modalBodySignUp">
+                <span class="close2">&times;</span>
+                <h2 id="get">Get Started</h2>
+                <hr>
+                <form>
+                    <label id="name">Full Name</label><br>
+                    <input type="text" id="fullName" placeholder="Enter Full Name" required><br>
+                    <label id="userName">Username</label><br>
+                    <input type="text" id="fullName" placeholder="Enter Username" required><br>
+                    <label id="password">Password</label><br>
+                    <input type="password" id="fullName" placeholder="Enter Password" required><br>
+                    <label id="confirmPassword">Confirm Password</label><br>
+                    <input type="password" id="fullName" placeholder="Confirm Password" required><br>
+                    <input type="submit" id="signUpModalButton" value="Sign Up"><br>
+                </form>
+            </div> 
+        </div>
+</div>
+
+<div class="blogContent">
         <div id="blogTitle" class="blogTite">
         <h id="blogTitleNew">The legacy of Jimi Hendrix</h>
-    </div>
+</div>
 
 <div class="blogAuthor">
 
@@ -37,14 +79,17 @@
             Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz. Hendrix favored overdriven amplifiers with high volume and gain.[119] He was instrumental in developing the previously undesirable technique of guitar amplifier feedback, and helped to popularize use of the wah-wah pedal in mainstream rock.[348] He rejected the standard barre chord fretting technique used by most guitarists in favor of fretting the low 6th string root notes with his thumb.[349] He applied this technique during the beginning bars of "Little Wing", which allowed him to sustain the root note of chords while also playing melody. This method has been described as piano style, with the thumb playing what a pianist's left hand would play and the other fingers playing melody as a right hand.[350] Having spent several years fronting a trio, he developed an ability to play rhythm chords and lead lines together, giving the audio impression that more than one guitarist was performing.[351][nb 41] He was the first artist to incorporate stereophonic phasing effects in rock music recordings.[354] Holly George-Warren of Rolling Stone commented: "Hendrix pioneered the use of the instrument as an electronic sound source. Players before him had experimented with feedback and distortion, but Hendrix turned those effects and others into a controlled, fluid vocabulary every bit as personal as the blues with which he began."[3][nb 42] Aledort wrote: "In rock guitar, there are but two eras — before Hendrix and after Hendrix."
     </p>
 </div>
+        <!-- Insert code for Like button, Comment button, Comment box here-->
+    
         <button id="likeButton"><i class="fa fa-thumbs-up"></i> Like</button>
         <p id="likeText">Be the fist One to like this</p>
         <textarea id="comment" placeholder="Leave a comment ..."></textarea><br>
         <button id="commentButton"><i class="fa fa-comment"></i> Comment</button>
         <p style="font-weight: bold; margin-top: 15px;">All Comments</p>
         <div id="commentDisplay"></div>
-    <!-- Insert code for Like button, Comment button, Comment box here-->
-    </div>
+    
+</div>
+    
     <script src="..\js\post.js" defer></script>
     <script src="..\js\header.js">             
     </script>

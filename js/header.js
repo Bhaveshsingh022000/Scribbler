@@ -7,11 +7,6 @@ signIn.onclick = function(){
 close1.onclick = function(){
     mod1.style.display = "none";
 }
-window.onclick = function(event){
-    if(event.target == mod1){
-        mod1.style.display = "none";
-    }
-}
 
 var signUp = document.getElementById("signUp");
 var mod2 = document.getElementById("signUpModal");
@@ -25,6 +20,9 @@ close2.onclick = function(){
 window.onclick = function(event){
     if(event.target == mod2){
         mod2.style.display = "none";
+    }
+    else if(event.target == mod1){
+        mod1.style.display = "none";
     }
 }
 

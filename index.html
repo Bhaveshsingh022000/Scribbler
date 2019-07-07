@@ -19,14 +19,14 @@
             <button id="signIn">Sign In</button>
             <button id="signUp">Sign Up</button>
             <text class="logo">ScriBBler</text>
-            <p class="subHeading">Explore, Image, Create</p>
+            <p class="subHeading" style="color: black;">Explore, Image, Create</p>
         	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
 
         </div>
            
         <div class="postButtons">
-            <button class="allPost"><b>All Posts</b></button>
-            <button class="createPost"><b>Create Post</b></button>
+            <a href = "html/bloglist.html"><button class="allPost"><b>All Posts</b></button></a>
+            <button id="createPost"><b>Create Post</b></button>
         	<!-- Insert code for All Posts & Create Post button here -->
 
         </div>
@@ -42,16 +42,16 @@
                 <h2 id="get">Welcome Back!</h2>
                 <hr>
                 <form>
-                <label id="userName">Username</label><br>
-                <input type="text" id="fullName" placeholder="Enter Username" required><br>
-                <label id="password">Password</label><br>
-                <input type="password" id="fullName" placeholder="Enter Password" required><br>
-                <input type="submit" id="signInModalButton" value="Sign In"><br>
+                    <label id="userName">Username</label><br>
+                    <input type="text" id="fullName" placeholder="Enter Username" required><br>
+                    <label id="password">Password</label><br>
+                    <input type="password" id="fullName" placeholder="Enter Password" required><br>
+                    <input type="submit" id="signInModalButton" value="Sign In"><br>
                     <h3>Not a member? <span id="member">SignUp</span></h3>
                 </form>
+        </div>
+    </div>
 </div>
-    </div>
-    </div>
 
     	
 
@@ -66,26 +66,40 @@
                 <h2 id="get">Get Started</h2>
                 <hr>
                 <form>
-                <label id="name">Full Name</label><br>
-                <input type="text" id="fullName" placeholder="Enter Full Name" required><br>
-                <label id="userName">Username</label><br>
-                <input type="text" id="fullName" placeholder="Enter Username" required><br>
-                <label id="password">Password</label><br>
-                <input type="password" id="fullName" placeholder="Enter Password" required><br>
-                <label id="confirmPassword">Confirm Password</label><br>
-                <input type="password" id="fullName" placeholder="Confirm Password" required><br>
-                <input type="submit" id="signUpModalButton" value="Sign Up"><br>
+                    <label id="name">Full Name</label><br>
+                    <input type="text" placeholder="Enter Full Name" required><br>
+                    <label id="userName">Username</label><br>
+                    <input type="text" id="fullName" placeholder="Enter Username" required><br>
+                    <label id="password">Password</label><br>
+                    <input type="password" id="fullName" placeholder="Enter Password" required><br>
+                    <label id="confirmPassword">Confirm Password</label><br>
+                    <input type="password" id="fullName" placeholder="Confirm Password" required><br>
+                    <input type="submit" id="signUpModalButton" value="Sign Up"><br>
                 </form>
             </div>
-            
         </div>
+</div>
+
+<!-- Insert code for Create Post modal here -->
+    
+<div id="PostModal">
+    <div id="contentPost">
+            <div id="modalBodyPost">
+                <span class="close2">&times;</span>
+                <h2 id="get">Create Post</h2>
+                <hr>
+                <form>
+                    <label id="name">Name</label><br>
+                    <input type="text" placeholder="Enter Name" required><br>
+                    <label id="title">Title</label><br>
+                    <input type="text" placeholder="Enter Title" required><br>
+                    <label id="postContent">Content</label><br>
+                    <textarea id="post" placeholder="Enter your Content Here ..."></textarea>
+                    <button id="modalPostButton">Post</button>
+                </form>
+            </div>
     </div>
-
-    <div>
-
-    	<!-- Insert code for Create Post modal here -->
-
-    </div>
+</div>
 
 	<!-- Place all Javascript for header in this file -->
 	<script src="js\header.js"></script>
